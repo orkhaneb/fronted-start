@@ -174,6 +174,81 @@
   font-size: 1.43em;
   font-weight: 400;
   line-height: 1.7em;
-  font-family: 'Lora', 'Helvetica', 'Arial', sans-serif;
+  font-family: "Lora", "Helvetica", "Arial", sans-serif;
+}
+
+#worker {
+  padding: 100px;
+}
+
+#worker .worker-item {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  position: relative;
+}
+
+#worker .worker-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+#worker .worker-item:hover .worker-about {
+  opacity: 1;
+  -webkit-transition: all .6s;
+  transition: all .6s;
+}
+
+#worker .worker-item .worker-about {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  text-align: right;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+#worker .worker-item .worker-about .list-items {
+  margin-right: 129px;
+  margin-top: 303px;
+}
+
+#worker .worker-item .worker-about .list-items a {
+  color: grey;
+}
+
+#worker .worker-item .worker-about .list-items a i {
+  font-size: 16px;
+}
+
+#worker .worker-item .worker-about .list-items a i:hover {
+  color: #fff;
+}
+
+#worker .worker-item .worker-about h5 {
+  color: white;
+  font-weight: 400;
+  position: relative;
+  top: 43%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#worker .worker-item .worker-about p {
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 43%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Lora", "Helvetica", "Arial", sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
