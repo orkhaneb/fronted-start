@@ -1,0 +1,57 @@
+#entry{
+    background-image: url(../img/hero1.jpg);
+    height: 752px;
+    padding: 230px 0;
+    color: $primary-white;
+      
+
+    .entry-text{
+        color: $primary-white;
+        font-size: 1.8em;
+        line-height: 1.6em;    
+    }
+
+    #entry-img{
+        position: absolute;
+        width: 333px;
+        bottom: 8px;
+        left: 218px;        
+    }
+
+    .myBtn{
+        background-color: $btncolor ;
+        position: absolute;
+        top: 49px;
+        right: 452px;      
+        border-radius: 100px;
+        border-color:$btncolor;     
+        font-family: $myfont;
+        span{
+
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-right: 10px;
+            padding-left: 10px;
+            font-weight: 590;
+        }
+    }
+    .list-items{
+        position: absolute;
+        top: 290px;
+        left: 415px;
+        li{        
+            margin-right: 45px;
+            a{
+               
+                i{
+            
+                    font-size: 30px;
+                    color: rgb(177, 173, 173);
+                    &:hover{
+                        color: $primary-white;
+                    }
+                }
+            }
+        }
+    }
+}

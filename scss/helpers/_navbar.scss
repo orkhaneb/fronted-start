@@ -1,0 +1,50 @@
+.row{
+    width: 100%;
+    display: flex;
+}
+
+.nav-logo{
+    width: 100px;
+    display: inline-block;
+
+    img{
+        height: 32px;
+        width: 78px;        
+    }
+
+}
+
+.navbar-nav{
+    padding: 10px 0;
+    .nav-link{
+        color: $primary-white;
+        font-size: 14px;
+        font-weight: $myfontweight;
+        font-family: $myfont;
+        &:hover{
+            color: $secondary-color;
+        }
+        
+    }    
+
+}
+
+.left-nav{
+    i{
+        color: $primary-white;   
+        font-size: 16px;
+        margin-left: 40px;          
+        &:hover{
+            color: rgb(177, 173, 173);
+        }
+
+    }
+}
+
+    
+  
+   
+
+
+   
+

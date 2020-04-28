@@ -1,0 +1,19 @@
+#delivered{
+    padding: 100px 0;
+    .delivered-item{
+       h4{
+           font-size: 2em;
+           font-family: $myfont;
+           color: #343434;
+           font-weight: 600;
+       }
+       
+       p{
+           color: $secondary-color;
+           font-size: 1.43em;
+           font-weight:$myfontweight;
+           line-height: 1.7em;
+           font-family: 'Lora', 'Helvetica', 'Arial', sans-serif;
+       }
+    }
+}
