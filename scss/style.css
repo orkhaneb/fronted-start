@@ -41,7 +41,7 @@
 }
 
 #entry {
-  background-image: url(../img/hero1.jpg);
+  background-image: url(../img/hero/hero1.jpg);
   height: 752px;
   padding: 230px 0;
   color: #fff;
@@ -250,5 +250,74 @@
       -ms-flex-pack: center;
           justify-content: center;
   font-family: "Lora", "Helvetica", "Arial", sans-serif;
+}
+
+#camera {
+  padding: 100px;
+  background-image: url(../img/hero/hero2.jpg);
+}
+
+#camera .camera-item {
+  text-align: center;
+  color: white;
+}
+
+#camera .camera-item i {
+  font-size: 4em;
+}
+
+#camera .camera-item h3 {
+  color: white;
+  padding: 10px;
+  line-height: 1.5em;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 2em;
+}
+
+#camera .camera-item h5 {
+  font-family: "Lora", "Helvetica", "Arial", sans-serif;
+}
+
+#expert {
+  padding: 100px;
+}
+
+#expert .expert-item {
+  padding: 20px;
+  width: 50%;
+}
+
+#expert .left-item {
+  float: left;
+  margin-right: 27px;
+}
+
+#expert .left-item i {
+  font-size: 43px;
+  color: #425cbb;
+  margin-bottom: 18px;
+}
+
+#expert .right-item {
+  float: left;
+  position: relative;
+}
+
+#expert .right-item pre {
+  color: grey;
+  font-family: 'Lora', 'Helvetica', 'Arial', sans-serif;
+  font-size: 15px;
+  margin-left: 69px;
+}
+
+#expert .right-item h6 {
+  color: grey;
+  font-weight: 600;
+  margin-bottom: 37px;
+  position: absolute;
+  bottom: 88px;
+  left: 72px;
+  font-size: 12px;
 }
 /*# sourceMappingURL=style.css.map */

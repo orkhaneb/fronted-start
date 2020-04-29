@@ -1,0 +1,39 @@
+#expert{
+    padding: 100px;
+      
+      .expert-item{
+            padding: 20px;
+            width: 50%;
+        }
+        .left-item{
+            float: left;
+            margin-right: 27px;
+            i{
+                font-size: 43px;
+                color:$btncolor;
+                margin-bottom: 18px;
+            }
+        }
+        .right-item{
+            float: left;
+            position: relative;
+            pre{
+                color: grey;
+                font-family: 'Lora', 'Helvetica', 'Arial', sans-serif;
+                font-size: 15px;
+                margin-left: 69px;         
+            }
+            h6{
+                color: grey;
+                font-weight: 600;
+                margin-bottom: 37px;
+                position: absolute;
+                bottom: 88px;
+                left: 72px;
+                font-size: 12px;
+            }
+        }
+}
+
+
+
