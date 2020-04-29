@@ -1,0 +1,27 @@
+
+#dan-gibson{
+  padding: 100px;
+    .gibsontext{
+      margin-top: 185px;
+      p{
+        color: $secondary-color;
+        line-height: 40px;
+        font-size: 22px;
+        margin-bottom: 48px;
+        font-style: italic;
+        
+      }
+      h6{
+        color: $secondary-color ;
+        font-size: 10px;
+        letter-spacing: 3px;
+        font-weight: $myfontweight
+      }
+      h5{
+        color: $third-color;
+        font-size: 16px;
+        font-family: $myfont;
+        font-weight: $mysecondfont;
+      }
+    }
+}
