@@ -1,53 +1,62 @@
 #entry{
+    position: relative;
     background-image: url(../img/hero/hero1.jpg);
     background-attachment: fixed;
     height: 752px;
     padding: 230px 0;
     color: $primary-white;
-
-    .entry-lg{
-              
-    .overlay{
-        position: absolute;
-        top: 0;
-        left: 0;
-        background-color: black;
-        opacity: 0.6;
+    &::before{
+        content: '';
+        background: #232323;
         width: 100%;
-        height: 115%;
-
-
-
+        position: absolute;
+        top: 0;  
+        height: 100%;   
+        opacity: 0.7;
+        z-index: 1;
     }
+
+
 
     
     .entry-text{
+        position: absolute;
         color: $primary-white;
-        font-size: 1.8em;
+        font-size: 21px;
         line-height: 1.6em;    
+        font-family: $myfont;
+        z-index: 4;
+        top: 92px;
     }
 
-    #entry-img{
+    .entry-img{
         position: absolute;
         width: 333px;
         bottom: 8px;
         left: 218px;  
-        
-
-
+        z-index: 3;
+        top: 35px;
     }
 
       
-    }
+    
 
     .myBtn{
         background-color: $btncolor ;
         position: absolute;
-        top: 49px;
+        top: 280px;
         right: 452px;      
         border-radius: 100px;
         border-color:$btncolor;     
         font-family: $myfont;
+        padding: 8px 25px 8px 25px;
+        z-index: 6;
+
+        &:hover{
+            color: #546cc3;
+            transition: 0.3s
+
+        }
         span{
 
             padding-top: 6px;
@@ -55,19 +64,22 @@
             padding-right: 10px;
             padding-left: 10px;
             font-weight: 590;
+
         }
     }
     .list-items{
         position: absolute;
-        top: 290px;
+        top: 430px;
         left: 415px;
+        margin-left: -42px;
+        z-index: 7;
         li{        
             margin-right: 45px;
             a{
                
                 i{
             
-                    font-size: 30px;
+                    font-size: 23px;
                     color: rgb(177, 173, 173);
                     &:hover{
                         color: $primary-white;

@@ -54,23 +54,19 @@
     }
 
     #copyrighted{
-        
+        position: relative;
+
         a{
-            width: 3.25em;
-            height: 3.25em;
+            position: absolute;
+            bottom: 62px;
+            font-size: 30px;
+            border: 2px solid grey;
             border-radius: 50%;
-            background: #3d3d3d;
-            display: inline-block;
+            width: 35px;
+            height: 35px;
             text-align: center;
-            position: relative;
-            z-index: 4;
-            bottom: 3.25em;
-            padding-top: 12px;
-            i{
-               
-                color: white;
-                font-size: 27px;
-            }
+            color: white;
+            background-color: grey;
         }
     }
 
