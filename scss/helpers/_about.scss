@@ -1,0 +1,145 @@
+#ab-entry{
+    padding: 180px 0px;
+    background-image: url(../img/hero/hero5.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    top: 0;
+    height: 70vh;
+    &::before{
+        content: '';  
+        background-color: #232323;
+        position: absolute;
+        width: 100%;
+        height: 70%;
+        top: 0;
+        left: 0;
+        opacity: 0.8;
+        z-index: 1;
+        
+    }
+    .about-text{
+        z-index: 2;
+        text-align: center;
+        position: absolute;
+        h3{
+            color: $primary-white;
+            font-size: 32px;
+            font-family: $myfont;
+            line-height: 60px;
+            font-weight: $myfontweight;
+        }
+        p{
+         color: $primary-white;
+         font-family: $myfont2;
+         font-size: 24px;
+         line-height: 35px;
+         font-weight: 500;
+        }
+     }
+}
+
+#ab-body{
+    padding: 100px 0;
+    position: relative;
+    bottom: 200px;
+    z-index: 3;
+    .card{       
+        .card__icon{
+            background: #f4f4f4;
+            padding: 78px 0;
+            text-align: center;
+            i{
+                font-size: 64px;
+                text-align: center;
+            }
+        }
+        .card__body{
+            position: relative;
+            overflow: hidden;
+            padding: 39px;
+            background: $primary-white;
+            p{
+                margin-top: 26px;
+                color: $secondary-color;
+                margin-bottom: 26px;
+                font-size: 16px;
+                line-height: 26px;
+            }
+            .card__title{
+                margin-bottom: 13px;
+                line-height: 26px;
+                font-size: 16px;
+                h5{
+                    font-size: 16px;
+                    line-height: 26px;
+                    font-family: $myfont;
+                    font-weight: 600;
+                    color: #232323;
+                }
+            }
+        }
+    }
+}
+#ab-foot{
+    position: relative;
+    background-image: url(../img/hero/hero8.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    &::before{
+        content: '';
+        position: absolute;
+        background: #232323;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        opacity: 0.4;
+    }
+    
+        h4{
+            color: $primary-white;
+            position: absolute;
+            left: 208px;
+            top: 11px;
+            font-family: $myfont;
+            font-size: 32px;
+            margin-top: 90px;
+            margin-bottom: 30px;
+            line-height: 60px;
+            z-index: 2;
+        }
+        .btn{
+            font-size: inherit;
+            background-color: $btncolor ;
+            position: absolute;      
+            top: 180px;
+            right: 360px;
+            font-family: $myfont;
+            border-radius: 100px;
+            padding: 20px 40px 17px 40px;
+               &:hover{
+                background-color:#007bff;     
+                }
+            .btn-text{
+                float: right;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                 font-size: 10px;
+                line-height: 10px;
+                color: $primary-white;
+            }
+    
+
+        }
+}   
+
+
+
+
+
+    
+    

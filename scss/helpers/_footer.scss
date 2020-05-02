@@ -52,8 +52,10 @@
             }
         }
     }
-    #copyright{
-        .top-link{
+
+    #copyrighted{
+        
+        a{
             width: 3.25em;
             height: 3.25em;
             border-radius: 50%;
@@ -64,7 +66,12 @@
             z-index: 4;
             bottom: 3.25em;
             padding-top: 12px;
-          
+            i{
+               
+                color: white;
+                font-size: 27px;
+            }
         }
     }
+
 }

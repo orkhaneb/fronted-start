@@ -1,9 +1,32 @@
 #bluepillar{
-    .myText{
-        // float: left;
+    padding: 100px;
+    text-align: center;
+
+    .blue-text{
+        margin: 6px;
+        .text-item{
+            display: inline-block;
+            color: $primary-white;
+            font-size: 500;         
+        }
+        .btn{
+            border: 2px solid #fff;
+            padding: 20px 40px 18px 40px;
+            border-radius: 100px;
+            font-family: $myfont;
+            margin-left: 26px;
+                &:hover{
+                    border-color: black;
+                }
+        }
+        .btn-text{
+            color: $primary-white;
+            float: right;
+            font-weight: $myfontweight;
+            font-size: 10px;
+            line-height: 10px;
+            letter-spacing: 1px;
+        }
     }
-    .myBtn{
-        // float: left;
-        color: blanchedalmond;
-    }
+    
 }

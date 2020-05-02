@@ -42,18 +42,29 @@
 
 #entry {
   background-image: url(../img/hero/hero1.jpg);
+  background-attachment: fixed;
   height: 752px;
   padding: 230px 0;
   color: #fff;
 }
 
-#entry .entry-text {
+#entry .entry-lg .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.6;
+  width: 100%;
+  height: 115%;
+}
+
+#entry .entry-lg .entry-text {
   color: #fff;
   font-size: 1.8em;
   line-height: 1.6em;
 }
 
-#entry #entry-img {
+#entry .entry-lg #entry-img {
   position: absolute;
   width: 333px;
   bottom: 8px;
@@ -255,6 +266,7 @@
 #camera {
   padding: 100px;
   background-image: url(../img/hero/hero2.jpg);
+  background-attachment: fixed;
 }
 
 #camera .camera-item {
@@ -408,8 +420,40 @@
   color: grey;
 }
 
-#bluepillar .myBtn {
-  color: blanchedalmond;
+#bluepillar {
+  padding: 100px;
+  text-align: center;
+}
+
+#bluepillar .blue-text {
+  margin: 6px;
+}
+
+#bluepillar .blue-text .text-item {
+  display: inline-block;
+  color: #fff;
+  font-size: 500;
+}
+
+#bluepillar .blue-text .btn {
+  border: 2px solid #fff;
+  padding: 20px 40px 18px 40px;
+  border-radius: 100px;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  margin-left: 26px;
+}
+
+#bluepillar .blue-text .btn:hover {
+  border-color: black;
+}
+
+#bluepillar .blue-text .btn-text {
+  color: #fff;
+  float: right;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 1px;
 }
 
 #footer {
@@ -472,7 +516,7 @@
   border: none;
 }
 
-#footer #copyright .top-link {
+#footer #copyrighted a {
   width: 3.25em;
   height: 3.25em;
   border-radius: 50%;
@@ -483,5 +527,159 @@
   z-index: 4;
   bottom: 3.25em;
   padding-top: 12px;
+}
+
+#footer #copyrighted a i {
+  color: white;
+  font-size: 27px;
+}
+
+#ab-entry {
+  padding: 180px 0px;
+  background-image: url(../img/hero/hero5.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  top: 0;
+  height: 70vh;
+}
+
+#ab-entry::before {
+  content: '';
+  background-color: #232323;
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+#ab-entry .about-text {
+  z-index: 2;
+  text-align: center;
+  position: absolute;
+}
+
+#ab-entry .about-text h3 {
+  color: #fff;
+  font-size: 32px;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  line-height: 60px;
+  font-weight: 400;
+}
+
+#ab-entry .about-text p {
+  color: #fff;
+  font-family: "Lora", "Helvetica", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 35px;
+  font-weight: 500;
+}
+
+#ab-body {
+  padding: 100px 0;
+  position: relative;
+  bottom: 200px;
+  z-index: 3;
+}
+
+#ab-body .card .card__icon {
+  background: #f4f4f4;
+  padding: 78px 0;
+  text-align: center;
+}
+
+#ab-body .card .card__icon i {
+  font-size: 64px;
+  text-align: center;
+}
+
+#ab-body .card .card__body {
+  position: relative;
+  overflow: hidden;
+  padding: 39px;
+  background: #fff;
+}
+
+#ab-body .card .card__body p {
+  margin-top: 26px;
+  color: #767676;
+  margin-bottom: 26px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+#ab-body .card .card__body .card__title {
+  margin-bottom: 13px;
+  line-height: 26px;
+  font-size: 16px;
+}
+
+#ab-body .card .card__body .card__title h5 {
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-weight: 600;
+  color: #232323;
+}
+
+#ab-foot {
+  position: relative;
+  background-image: url(../img/hero/hero8.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+}
+
+#ab-foot::before {
+  content: '';
+  position: absolute;
+  background: #232323;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0.4;
+}
+
+#ab-foot h4 {
+  color: #fff;
+  position: absolute;
+  left: 208px;
+  top: 11px;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-size: 32px;
+  margin-top: 90px;
+  margin-bottom: 30px;
+  line-height: 60px;
+  z-index: 2;
+}
+
+#ab-foot .btn {
+  font-size: inherit;
+  background-color: #425cbb;
+  position: absolute;
+  top: 180px;
+  right: 360px;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  border-radius: 100px;
+  padding: 20px 40px 17px 40px;
+}
+
+#ab-foot .btn:hover {
+  background-color: #007bff;
+}
+
+#ab-foot .btn .btn-text {
+  float: right;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 10px;
+  line-height: 10px;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
