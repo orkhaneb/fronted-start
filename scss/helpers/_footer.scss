@@ -55,7 +55,8 @@
 
     #copyrighted{
         position: relative;
-
+      .angleup{
+          position: absolute;
         a{
             position: absolute;
             bottom: 62px;
@@ -67,7 +68,11 @@
             text-align: center;
             color: white;
             background-color: grey;
+
         }
+
+      }
+
     }
 
 }
